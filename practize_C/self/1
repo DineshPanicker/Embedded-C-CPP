@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+	char s1[] = "dinesh";
+	char s2[] = "dinesh";
+
+	if(strcmp(s1,s2) == 0) printf("Equal/n");
+	else printf("Not Equal\n");
+
+	return 0;
+}

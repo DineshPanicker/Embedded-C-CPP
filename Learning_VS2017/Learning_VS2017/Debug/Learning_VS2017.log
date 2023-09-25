@@ -1,0 +1,4 @@
+﻿  Initialization.cpp
+c:\users\dines\source\repos\dineshpanicker\c-cpp\learning_vs2017\learning_vs2017\initialization.cpp(13): warning C4101: 'd1': unreferenced local variable
+c:\users\dines\source\repos\dineshpanicker\c-cpp\learning_vs2017\learning_vs2017\initialization.cpp(6): warning C4101: 'a1': unreferenced local variable
+  Learning_VS2017.vcxproj -> C:\Users\dines\Source\Repos\DineshPanicker\C-Cpp\Learning_VS2017\Debug\Learning_VS2017.exe
