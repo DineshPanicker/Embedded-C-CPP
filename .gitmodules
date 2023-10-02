@@ -1,0 +1,3 @@
+[submodule "c-ninja-listings"]
+	path = c-ninja-listings
+	url = git@github.com:DineshPanicker/Embedded-C-CPP.git
