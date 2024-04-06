@@ -1,0 +1,9 @@
+[{
+  "file": "C:\\Programming Practice\\Embedded-C-CPP\\CPP\\CPP\\Project2\\main.cpp",
+  "directory": "C:\\Programming Practice\\Embedded-C-CPP\\CPP\\CPP\\Project2",
+  "command": "C:/MinGW/bin/g++.exe -c \"C:\\Programming Practice\\Embedded-C-CPP\\CPP\\CPP\\Project2\\main.cpp\" -o \"C:\\Programming Practice\\Embedded-C-CPP\\CPP\\CPP\\Project2\\main.cpp\".o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -std=gnu++17  -std=c++14  -std=gnu++14  -std=c++11  -std=gnu++11  -Wall"
+ }, {
+  "file": "C:\\Programming Practice\\Embedded-C-CPP\\CPP\\CPP\\Project\\main.cpp",
+  "directory": "C:\\Programming Practice\\Embedded-C-CPP\\CPP\\CPP\\Project",
+  "command": "C:/MinGW/bin/g++.exe -c \"C:\\Programming Practice\\Embedded-C-CPP\\CPP\\CPP\\Project\\main.cpp\" -o \"C:\\Programming Practice\\Embedded-C-CPP\\CPP\\CPP\\Project\\main.cpp\".o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }]
