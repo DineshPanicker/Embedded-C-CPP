@@ -1,37 +1,11 @@
 #include <iostream>
-
-void Swap(int *x, int *y)
-{
-    int temp = *x;
-    *x = *y;
-    *y = temp;
-}
-
-void Swap(int &x, int &y)
-{
-    int temp = x;
-    x = y;
-    y = temp;
-}
-//void Print(int *ptr)
-//{
-//    using namespace std;
-//    if(ptr != nullptr)
-//        cout<<*ptr<<"\n";
-//}
-
-void Print(int &ptr)
-{
-    using namespace std;
-    cout<<ptr<<"\n";
-}
+#include <memory>
 int main()
 {
-    using namespace std;
-    const int X = 4;
-    int *ptr = &X;
-    *ptr = 1;
-    
-    
+    std::unique_ptr<int>p1 {new int {100}};
+    std::cout<<*p1<<std::endl;
+    *p1 = 200;
+    std::cout<<*p1<<std::endl;
+
     return 0;
 }
