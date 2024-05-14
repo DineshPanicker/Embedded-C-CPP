@@ -11,5 +11,6 @@ int main()
     {
         studentIDs[i] = i;
     }
+    printf("%p", studentIDs);
     return 0;
 }
