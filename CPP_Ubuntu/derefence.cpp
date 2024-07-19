@@ -1,16 +1,6 @@
-#include <iostream>
+#include <stdio.h>
 
-int *allocate_mem()
+int main(int argc, char ***argv)
 {
-    return new int;
-}
-int main()
-{
-    int studentIDs[100];
-    for (int i = 0; i < 100; i++)
-    {
-        studentIDs[i] = i;
-    }
-    printf("%p", studentIDs);
-    return 0;
+    int x = 1;
 }

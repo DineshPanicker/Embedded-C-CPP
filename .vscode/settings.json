@@ -3,6 +3,16 @@
         "array": "c",
         "string_view": "c",
         "initializer_list": "c",
-        "utility": "c"
-    }
+        "utility": "c",
+        "*.conf": "bitbake",
+        "*.inc": "bitbake"
+    },
+    "python.autoComplete.extraPaths": [
+        "/home/dinesh/Embedded-Linux/yocto_tutorial/poky/bitbake/lib",
+        "/home/dinesh/Embedded-Linux/yocto_tutorial/poky/meta/lib"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/dinesh/Embedded-Linux/yocto_tutorial/poky/bitbake/lib",
+        "/home/dinesh/Embedded-Linux/yocto_tutorial/poky/meta/lib"
+    ]
 }
