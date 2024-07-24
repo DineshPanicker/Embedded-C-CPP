@@ -1,6 +1,11 @@
 #include <iostream>
 #include <memory>
 
+
+
+struct Base{
+    
+}
 int main()
 {
     std::unique_ptr<int>p1 {new int {69}};

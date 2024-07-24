@@ -19,7 +19,7 @@ void print_min_char(char *s);
 int main()
 {
     // test the function with this string where h is the minimum occurring char
-    char s[] = "abcdefghabcdefghabcdefg";
+    char s[] = "abcdefghabcdefghabcdefgaabbccddhhhffggg";
     print_min_char(s);
 
     return 0;
@@ -76,7 +76,7 @@ void print_min_char(char *s)
     // output the minimum occurring char and number of occurrences, output an
     // error message if the string contained no characters at all
     if (length > 0)
-        printf("%c:%d\n", min_char, min_count);
+        printf("minimum char %c:Max count %d\n", min_char, min_count);
     else
         printf("error: string has 0 length\n");
 }

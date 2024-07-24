@@ -3,39 +3,22 @@
 #include <unistd.h>
 #include <pthread.h>
 
-int a = 2;
-void *routine()
-{
-    a+=5;
-    sleep(2);
-    printf("Value of a: %d\n", a);
+void myturn() {
+    for (int i = 0; i < 8; i++) {
+        sleep(1);
+        printf("My turn %d\n", i);
+    }
 }
 
-void *routine2()
-{
-    sleep(2);
-    printf("Value of a: %d\n", a);
+void yourturn() {
+    for (int i = 0; i < 3; i++) {
+        sleep(2);
+        printf("Your turn %d\n", i);
+    }
 }
 
-int main(int argc, char *argv[])
+int main()
 {
-    pthread_t t1, t2;
+    pthread_t newthread;
     
-    if (pthread_create(&t1, NULL, &routine, NULL))
-    {
-        return 1;
-    }
-    if (pthread_create(&t2, NULL, &routine2, NULL))
-    {
-        return 2;
-    }
-    if (pthread_join(t1, NULL))
-    {
-        return 3;
-    }
-    if (pthread_join(t2, NULL))
-    {
-        return 4;
-    }
-    return 0;
 }
