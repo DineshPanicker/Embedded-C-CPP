@@ -1,0 +1,13 @@
+# Target labels
+ check-unit-test-framework
+# Source files and their labels
+/home/dinesh/Embedded-C-CPP/build/unittest/CMakeFiles/check-unit-test-framework
+/home/dinesh/Embedded-C-CPP/build/unittest/CMakeFiles/check-unit-test-framework.rule
+/home/dinesh/Embedded-C-CPP/build/unittest/CMakeFiles/check-unit-test-framework-complete.rule
+/home/dinesh/Embedded-C-CPP/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-build.rule
+/home/dinesh/Embedded-C-CPP/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-configure.rule
+/home/dinesh/Embedded-C-CPP/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-download.rule
+/home/dinesh/Embedded-C-CPP/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-install.rule
+/home/dinesh/Embedded-C-CPP/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-mkdir.rule
+/home/dinesh/Embedded-C-CPP/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-patch.rule
+/home/dinesh/Embedded-C-CPP/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-update.rule

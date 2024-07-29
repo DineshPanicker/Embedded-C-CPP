@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/dinesh/Embedded-C-CPP/build/unittest/CMakeFiles/check-unit-test-framework"
+		},
+		{
+			"file" : "/home/dinesh/Embedded-C-CPP/build/unittest/CMakeFiles/check-unit-test-framework.rule"
+		},
+		{
+			"file" : "/home/dinesh/Embedded-C-CPP/build/unittest/CMakeFiles/check-unit-test-framework-complete.rule"
+		},
+		{
+			"file" : "/home/dinesh/Embedded-C-CPP/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-build.rule"
+		},
+		{
+			"file" : "/home/dinesh/Embedded-C-CPP/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-configure.rule"
+		},
+		{
+			"file" : "/home/dinesh/Embedded-C-CPP/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-download.rule"
+		},
+		{
+			"file" : "/home/dinesh/Embedded-C-CPP/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-install.rule"
+		},
+		{
+			"file" : "/home/dinesh/Embedded-C-CPP/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-mkdir.rule"
+		},
+		{
+			"file" : "/home/dinesh/Embedded-C-CPP/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-patch.rule"
+		},
+		{
+			"file" : "/home/dinesh/Embedded-C-CPP/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"check-unit-test-framework"
+		],
+		"name" : "check-unit-test-framework"
+	}
+}

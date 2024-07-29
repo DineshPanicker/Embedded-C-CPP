@@ -1,0 +1,84 @@
+Performing C SOURCE FILE Test HAVE_C_FLAG_FSANITIZE_ADDRESS failed with the following output:
+Change Dir: /home/dinesh/Embedded-C-CPP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_03603 && [1/2] Building C object CMakeFiles/cmTC_03603.dir/src.c.o
+[2/2] Linking C executable cmTC_03603
+FAILED: cmTC_03603 
+: && /usr/bin/gcc -std=c11 -rdynamic CMakeFiles/cmTC_03603.dir/src.c.o -o cmTC_03603   && :
+/usr/bin/ld: CMakeFiles/cmTC_03603.dir/src.c.o: in function `_sub_I_00099_0':
+src.c:(.text+0x18): undefined reference to `__asan_init'
+/usr/bin/ld: src.c:(.text+0x1d): undefined reference to `__asan_version_mismatch_check_v8'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG_COVERAGE failed with the following output:
+Change Dir: /home/dinesh/Embedded-C-CPP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_345a9 && [1/2] Building C object CMakeFiles/cmTC_345a9.dir/src.c.o
+[2/2] Linking C executable cmTC_345a9
+FAILED: cmTC_345a9 
+: && /usr/bin/gcc -std=c11 -rdynamic CMakeFiles/cmTC_345a9.dir/src.c.o -o cmTC_345a9   && :
+/usr/bin/ld: CMakeFiles/cmTC_345a9.dir/src.c.o: in function `_sub_I_00100_0':
+src.c:(.text+0x34): undefined reference to `__gcov_init'
+/usr/bin/ld: CMakeFiles/cmTC_345a9.dir/src.c.o: in function `_sub_D_00100_1':
+src.c:(.text+0x43): undefined reference to `__gcov_exit'
+/usr/bin/ld: CMakeFiles/cmTC_345a9.dir/src.c.o:(.data.rel+0x20): undefined reference to `__gcov_merge_add'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG_WEVERYTHING failed with the following output:
+Change Dir: /home/dinesh/Embedded-C-CPP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a30f8 && [1/2] Building C object CMakeFiles/cmTC_a30f8.dir/src.c.o
+FAILED: CMakeFiles/cmTC_a30f8.dir/src.c.o 
+/usr/bin/gcc -DHAVE_C_FLAG_WEVERYTHING  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes    -Weverything -o CMakeFiles/cmTC_a30f8.dir/src.c.o -c /home/dinesh/Embedded-C-CPP/build/CMakeFiles/CMakeTmp/src.c
+gcc: error: unrecognized command-line option '-Weverything'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG_W4 failed with the following output:
+Change Dir: /home/dinesh/Embedded-C-CPP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_43d0f && [1/2] Building C object CMakeFiles/cmTC_43d0f.dir/src.c.o
+FAILED: CMakeFiles/cmTC_43d0f.dir/src.c.o 
+/usr/bin/gcc -DHAVE_C_FLAG_W4  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses    /W4 -o CMakeFiles/cmTC_43d0f.dir/src.c.o -c /home/dinesh/Embedded-C-CPP/build/CMakeFiles/CMakeTmp/src.c
+gcc: warning: /W4: linker input file unused because linking not done
+gcc: error: /W4: linker input file not found: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test -Wno-reserved-id-macros failed with the following output:
+Change Dir: /home/dinesh/Embedded-C-CPP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_df57f && [1/2] Building C object CMakeFiles/cmTC_df57f.dir/src.c.o
+FAILED: CMakeFiles/cmTC_df57f.dir/src.c.o 
+/usr/bin/gcc   -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros    -D-Wno-reserved-id-macros HAVE_NO_RESERVED_ID_MACROS -o CMakeFiles/cmTC_df57f.dir/src.c.o -c /home/dinesh/Embedded-C-CPP/build/CMakeFiles/CMakeTmp/src.c
+<command-line>: error: macro names must be identifiers
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG_WD4820 failed with the following output:
+Change Dir: /home/dinesh/Embedded-C-CPP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_dfdd9 && [1/2] Building C object CMakeFiles/cmTC_dfdd9.dir/src.c.o
+FAILED: CMakeFiles/cmTC_dfdd9.dir/src.c.o 
+/usr/bin/gcc -DHAVE_C_FLAG_WD4820  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual    /Wd4820 -o CMakeFiles/cmTC_dfdd9.dir/src.c.o -c /home/dinesh/Embedded-C-CPP/build/CMakeFiles/CMakeTmp/src.c
+gcc: warning: /Wd4820: linker input file unused because linking not done
+gcc: error: /Wd4820: linker input file not found: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }

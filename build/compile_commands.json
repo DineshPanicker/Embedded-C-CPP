@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/dinesh/Embedded-C-CPP/build",
+  "command": "/usr/bin/gcc -DCRYPTO_LIB=\\\"libcrypto.so\\\" -DDEBUG -DOPENSSL_API_1_1 -DSSL_LIB=\\\"libssl.so\\\" -DUSE_IPV6 -DUSE_STACK_SIZE=102400 -I/home/dinesh/Embedded-C-CPP/civetweb-1.16/include  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden -g -fsanitize=undefined -fstack-protector-all   -O0 -g -o src/CMakeFiles/civetweb-c-library.dir/civetweb.c.o -c /home/dinesh/Embedded-C-CPP/civetweb-1.16/src/civetweb.c",
+  "file": "/home/dinesh/Embedded-C-CPP/civetweb-1.16/src/civetweb.c"
+},
+{
+  "directory": "/home/dinesh/Embedded-C-CPP/build",
+  "command": "/usr/bin/gcc -DCRYPTO_LIB=\\\"libcrypto.so\\\" -DDEBUG -DOPENSSL_API_1_1 -DSSL_LIB=\\\"libssl.so\\\" -DUSE_IPV6 -DUSE_STACK_SIZE=102400 -I/home/dinesh/Embedded-C-CPP/civetweb-1.16/include  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden -g -fsanitize=undefined -fstack-protector-all   -O0 -g -o src/CMakeFiles/civetweb-c-executable.dir/main.c.o -c /home/dinesh/Embedded-C-CPP/civetweb-1.16/src/main.c",
+  "file": "/home/dinesh/Embedded-C-CPP/civetweb-1.16/src/main.c"
+},
+{
+  "directory": "/home/dinesh/Embedded-C-CPP/build",
+  "command": "/usr/bin/gcc -DCRYPTO_LIB=\\\"libcrypto.so\\\" -DDEBUG -DOPENSSL_API_1_1 -DSSL_LIB=\\\"libssl.so\\\" -DUSE_IPV6 -DUSE_STACK_SIZE=102400 -I/home/dinesh/Embedded-C-CPP/build/third_party/include -I/home/dinesh/Embedded-C-CPP/civetweb-1.16/include  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden -g -fsanitize=undefined -fstack-protector-all   -O0 -g -o unittest/CMakeFiles/shared-c-unit-tests.dir/shared.c.o -c /home/dinesh/Embedded-C-CPP/civetweb-1.16/unittest/shared.c",
+  "file": "/home/dinesh/Embedded-C-CPP/civetweb-1.16/unittest/shared.c"
+},
+{
+  "directory": "/home/dinesh/Embedded-C-CPP/build",
+  "command": "/usr/bin/gcc -DCRYPTO_LIB=\\\"libcrypto.so\\\" -DDEBUG -DOPENSSL_API_1_1 -DSSL_LIB=\\\"libssl.so\\\" -DUSE_IPV6 -DUSE_STACK_SIZE=102400 -I/home/dinesh/Embedded-C-CPP/build/third_party/include -I/home/dinesh/Embedded-C-CPP/civetweb-1.16/include  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden -g -fsanitize=undefined -fstack-protector-all   -O0 -g -o unittest/CMakeFiles/public-func-c-unit-tests.dir/public_func.c.o -c /home/dinesh/Embedded-C-CPP/civetweb-1.16/unittest/public_func.c",
+  "file": "/home/dinesh/Embedded-C-CPP/civetweb-1.16/unittest/public_func.c"
+},
+{
+  "directory": "/home/dinesh/Embedded-C-CPP/build",
+  "command": "/usr/bin/gcc -DCRYPTO_LIB=\\\"libcrypto.so\\\" -DDEBUG -DOPENSSL_API_1_1 -DSSL_LIB=\\\"libssl.so\\\" -DUSE_IPV6 -DUSE_STACK_SIZE=102400 -I/home/dinesh/Embedded-C-CPP/build/third_party/include -I/home/dinesh/Embedded-C-CPP/civetweb-1.16/include  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden -g -fsanitize=undefined -fstack-protector-all   -O0 -g -o unittest/CMakeFiles/public-server-c-unit-tests.dir/public_server.c.o -c /home/dinesh/Embedded-C-CPP/civetweb-1.16/unittest/public_server.c",
+  "file": "/home/dinesh/Embedded-C-CPP/civetweb-1.16/unittest/public_server.c"
+},
+{
+  "directory": "/home/dinesh/Embedded-C-CPP/build",
+  "command": "/usr/bin/gcc -DCRYPTO_LIB=\\\"libcrypto.so\\\" -DDEBUG -DOPENSSL_API_1_1 -DSSL_LIB=\\\"libssl.so\\\" -DUSE_IPV6 -DUSE_STACK_SIZE=102400 -I/home/dinesh/Embedded-C-CPP/build/third_party/include -I/home/dinesh/Embedded-C-CPP/civetweb-1.16/include  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden -g -fsanitize=undefined -fstack-protector-all   -O0 -g -o unittest/CMakeFiles/private-c-unit-tests.dir/private.c.o -c /home/dinesh/Embedded-C-CPP/civetweb-1.16/unittest/private.c",
+  "file": "/home/dinesh/Embedded-C-CPP/civetweb-1.16/unittest/private.c"
+},
+{
+  "directory": "/home/dinesh/Embedded-C-CPP/build",
+  "command": "/usr/bin/gcc -DCRYPTO_LIB=\\\"libcrypto.so\\\" -DDEBUG -DOPENSSL_API_1_1 -DSSL_LIB=\\\"libssl.so\\\" -DUSE_IPV6 -DUSE_STACK_SIZE=102400 -I/home/dinesh/Embedded-C-CPP/build/third_party/include -I/home/dinesh/Embedded-C-CPP/civetweb-1.16/include  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden -g -fsanitize=undefined -fstack-protector-all   -O0 -g -o unittest/CMakeFiles/timer-c-unit-tests.dir/timertest.c.o -c /home/dinesh/Embedded-C-CPP/civetweb-1.16/unittest/timertest.c",
+  "file": "/home/dinesh/Embedded-C-CPP/civetweb-1.16/unittest/timertest.c"
+},
+{
+  "directory": "/home/dinesh/Embedded-C-CPP/build",
+  "command": "/usr/bin/gcc -DCRYPTO_LIB=\\\"libcrypto.so\\\" -DDEBUG -DOPENSSL_API_1_1 -DSSL_LIB=\\\"libssl.so\\\" -DUSE_IPV6 -DUSE_STACK_SIZE=102400 -I/home/dinesh/Embedded-C-CPP/build/third_party/include -I/home/dinesh/Embedded-C-CPP/civetweb-1.16/include  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden -g -fsanitize=undefined -fstack-protector-all   -O0 -g -o unittest/CMakeFiles/exe-c-unit-tests.dir/private_exe.c.o -c /home/dinesh/Embedded-C-CPP/civetweb-1.16/unittest/private_exe.c",
+  "file": "/home/dinesh/Embedded-C-CPP/civetweb-1.16/unittest/private_exe.c"
+},
+{
+  "directory": "/home/dinesh/Embedded-C-CPP/build",
+  "command": "/usr/bin/gcc -DCRYPTO_LIB=\\\"libcrypto.so\\\" -DDEBUG -DOPENSSL_API_1_1 -DSSL_LIB=\\\"libssl.so\\\" -DUSE_IPV6 -DUSE_STACK_SIZE=102400 -I/home/dinesh/Embedded-C-CPP/build/third_party/include -I/home/dinesh/Embedded-C-CPP/civetweb-1.16/include  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden -g -fsanitize=undefined -fstack-protector-all   -O0 -g -o unittest/CMakeFiles/main-c-unit-test.dir/main.c.o -c /home/dinesh/Embedded-C-CPP/civetweb-1.16/unittest/main.c",
+  "file": "/home/dinesh/Embedded-C-CPP/civetweb-1.16/unittest/main.c"
+}
+]

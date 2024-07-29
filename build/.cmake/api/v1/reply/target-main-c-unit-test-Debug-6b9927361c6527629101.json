@@ -1,0 +1,295 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "unittest/main-c-unit-test"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"target_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"unittest/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 123,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 533,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 486,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 541,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 530,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 492,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 557,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden -g -fsanitize=undefined -fstack-protector-all   -O0 -g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "CRYPTO_LIB=\"libcrypto.so\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "OPENSSL_API_1_1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "SSL_LIB=\"libssl.so\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "USE_IPV6"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_STACK_SIZE=102400"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/home/dinesh/Embedded-C-CPP/build/third_party/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/dinesh/Embedded-C-CPP/civetweb-1.16/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "civetweb-c-library::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "check-unit-test-framework::@a42dad5d64def158963d"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "shared-c-unit-tests::@a42dad5d64def158963d"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "public-func-c-unit-tests::@a42dad5d64def158963d"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "public-server-c-unit-tests::@a42dad5d64def158963d"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "private-c-unit-tests::@a42dad5d64def158963d"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "timer-c-unit-tests::@a42dad5d64def158963d"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "exe-c-unit-tests::@a42dad5d64def158963d"
+		}
+	],
+	"id" : "main-c-unit-test::@a42dad5d64def158963d",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden -g -fsanitize=undefined -fstack-protector-all",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/home/dinesh/Embedded-C-CPP/build/third_party/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/dinesh/Embedded-C-CPP/build/third_party/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "unittest/libshared-c-unit-tests.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "unittest/libpublic-func-c-unit-tests.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "unittest/libpublic-server-c-unit-tests.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "unittest/libprivate-c-unit-tests.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "unittest/libtimer-c-unit-tests.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "unittest/libexe-c-unit-tests.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "third_party/lib/libcheck.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libm.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/librt.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "src/libcivetweb.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "main-c-unit-test",
+	"nameOnDisk" : "main-c-unit-test",
+	"paths" : 
+	{
+		"build" : "unittest",
+		"source" : "unittest"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "unittest/main.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
