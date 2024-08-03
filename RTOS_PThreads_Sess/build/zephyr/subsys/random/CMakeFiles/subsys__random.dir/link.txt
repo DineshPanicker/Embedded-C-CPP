@@ -1,0 +1,2 @@
+ccache /usr/bin/ar qc libsubsys__random.a CMakeFiles/subsys__random.dir/random_entropy_device.c.obj
+ccache /usr/bin/ranlib libsubsys__random.a

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.in": "c",
+        "*.conf": "shellscript",
+        "zephyr.h": "c"
+    }
+}

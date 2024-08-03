@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include",
+                "/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/arch/arm/aarch32",
+                "/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/drivers"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "intelliSenseMode": "gcc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include",
+                    "/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/arch/arm/aarch32",
+                    "/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/drivers"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}

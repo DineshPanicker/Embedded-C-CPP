@@ -1,0 +1,2 @@
+ccache /usr/bin/ar qc libdrivers__ethernet.a CMakeFiles/drivers__ethernet.dir/eth_native_posix.c.obj CMakeFiles/drivers__ethernet.dir/eth_native_posix_adapt.c.obj
+ccache /usr/bin/ranlib libdrivers__ethernet.a

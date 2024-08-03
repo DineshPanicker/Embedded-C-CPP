@@ -1,0 +1,133 @@
+zephyr/CMakeFiles/offsets.dir/arch/posix/core/offsets/offsets.c.obj: \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/arch/posix/core/offsets/offsets.c \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/include/generated/zephyr/autoconf.h \
+ /usr/include/stdc-predef.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/arch/posix/include/posix_cheats.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/kernel.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/kernel_includes.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/types.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/bits/libc-header-start.h /usr/include/features.h \
+ /usr/include/features-time64.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
+ /usr/include/bits/wchar.h /usr/include/bits/stdint-intn.h \
+ /usr/include/bits/stdint-uintn.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+ /usr/include/limits.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/toolchain.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/toolchain/gcc.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/toolchain/common.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/posix/posix_trace.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/linker/sections.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/linker/section_tags.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/atomic.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/atomic_types.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util_macro.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util_internal.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util_loops.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util_listify.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util_internal_is_eq.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util_internal_util_inc.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util_internal_util_dec.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util_internal_util_x2.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/__assert.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/time_units.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/atomic_builtin.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/dlist.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/slist.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/list_gen.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/sflist.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/kernel/obj_core.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/kernel_structs.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/sys_heap.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/mem_stats.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/structs.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/kernel/stats.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/rb.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/kernel_version.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/syscall.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/include/generated/zephyr/syscall_list.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/syscall.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/printk.h \
+ /usr/include/inttypes.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/cpu.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/arch_interface.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/irq_offload.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/arch_inlines.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/posix/arch_inlines.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/posix/arch.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/devicetree.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/include/generated/zephyr/devicetree_generated.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/irq_multilevel.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/devicetree/io-channels.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/devicetree/clocks.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/devicetree/gpio.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/devicetree/spi.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/devicetree/dma.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/devicetree/pwms.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/devicetree/fixed-partitions.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/devicetree/ordinals.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/devicetree/pinctrl.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/devicetree/can.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/devicetree/reset.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/devicetree/mbox.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/irq.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/posix/exception.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/posix/asm_inline.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/posix/asm_inline_gcc.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/common/sys_bitops.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/sys_io.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/common/sys_io.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/common/ffs.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/posix/posix_soc_if.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/soc/native/inf_clock/soc_irq.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/boards/native/native_posix/board_irq.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/boards/native/native_posix/../common/irq/board_irq.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sw_isr_table.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/device.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/init.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/pm/state.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/device_mmio.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/kernel/mm.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/kernel/internal/mm.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/mem_manage.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/iterable_sections.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/include/generated/zephyr/syscalls/device.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/tracing/tracing_syscall.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/posix/thread.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys_clock.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/spinlock.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/fatal.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/arch/exception.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/fatal_types.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/kernel/thread_stack.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/app_memory/mem_domain.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/kernel/thread.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/kobject.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/internal/kobject_internal.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/include/generated/zephyr/kobj-types-enum.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/include/generated/zephyr/syscalls/kobject.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/kernel/internal/smp.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/tracing/tracing_macros.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/tracing/tracing.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/tracing/tracking.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/include/generated/zephyr/syscalls/kernel.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/arch/posix/include/kernel_arch_data.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/kernel/include/gen_offset.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/kernel/include/kernel_offsets.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/pm/device.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/kernel/include/kernel_internal.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/kernel/include/kernel_arch_interface.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/arch/posix/include/kernel_arch_func.h \
+ /usr/include/string.h /usr/include/bits/string_fortified.h

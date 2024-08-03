@@ -1,0 +1,19 @@
+empty_file.o: \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/misc/empty_file.c \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/boards/native/native_posix/native_posix.dts \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/boards/native/native_posix/../native_sim/native_sim.dts \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/dts/posix/posix.dtsi \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/dts/common/skeleton.dtsi \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/dts/common/mem.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/dt-bindings/adc/adc.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/dt-bindings/dt-util.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util_macro.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util_internal.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util_loops.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util_listify.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util_internal_is_eq.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util_internal_util_inc.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util_internal_util_dec.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/sys/util_internal_util_x2.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
+ /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/include/zephyr/dt-bindings/gpio/gpio.h
