@@ -1,4 +1,4 @@
-# Install script for directory: /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/modules/cmsis
+# Install script for directory: /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/modules/hal/cmsis
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/modules/cmsis/cmsis/cmake_install.cmake")
+  include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/modules/cmsis/CMSIS/cmake_install.cmake")
 
 endif()
 

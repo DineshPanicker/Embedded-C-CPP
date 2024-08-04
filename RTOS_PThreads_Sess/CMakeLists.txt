@@ -8,4 +8,4 @@ find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 project(zephyr_app)
 
 # Add source files from src directory
-target_sources(app PRIVATE src/Zephyr_Attr.c src/Zephyr_Sync.c src/Zephyr_Thread_Creation.c)
+target_sources(app PRIVATE src/Zephyr_Thread_Creation.c)

@@ -1,2 +1,0 @@
-ccache /usr/bin/ar qc app/libapp.a CMakeFiles/app.dir/src/Zephyr_Attr.c.obj CMakeFiles/app.dir/src/Zephyr_Sync.c.obj CMakeFiles/app.dir/src/Zephyr_Thread_Creation.c.obj
-ccache /usr/bin/ranlib app/libapp.a

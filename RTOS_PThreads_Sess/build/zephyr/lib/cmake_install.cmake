@@ -39,12 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/lib/crc/cmake_install.cmake")
-  include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/lib/hash/cmake_install.cmake")
-  include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/lib/heap/cmake_install.cmake")
-  include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/lib/mem_blocks/cmake_install.cmake")
+  include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/lib/gui/cmake_install.cmake")
   include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/lib/os/cmake_install.cmake")
-  include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/lib/utils/cmake_install.cmake")
+  include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/lib/util/cmake_install.cmake")
 
 endif()
 

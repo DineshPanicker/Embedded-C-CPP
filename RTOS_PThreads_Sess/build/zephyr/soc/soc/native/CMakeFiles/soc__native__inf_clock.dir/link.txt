@@ -1,2 +1,0 @@
-ccache /usr/bin/ar qc libsoc__native__inf_clock.a CMakeFiles/soc__native__inf_clock.dir/soc.c.obj CMakeFiles/soc__native__inf_clock.dir/native_tasks.c.obj
-ccache /usr/bin/ranlib libsoc__native__inf_clock.a

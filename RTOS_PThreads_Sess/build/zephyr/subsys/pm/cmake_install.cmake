@@ -37,3 +37,9 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/subsys/pm/policy/cmake_install.cmake")
+
+endif()
+

@@ -1,2 +1,0 @@
-ccache /usr/bin/ar qc libsubsys__net__l2__ethernet.a CMakeFiles/subsys__net__l2__ethernet.dir/ethernet.c.obj
-ccache /usr/bin/ranlib libsubsys__net__l2__ethernet.a

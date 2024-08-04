@@ -1,4 +1,4 @@
-The target system is: Generic - 3.7.99 - posix
+The target system is: Generic - 2.7.2 - posix
 The host system is: Linux - 5.15.153.1-microsoft-standard-WSL2 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/gcc 

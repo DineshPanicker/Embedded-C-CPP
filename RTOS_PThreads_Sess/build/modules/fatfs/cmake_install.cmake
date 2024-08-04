@@ -1,4 +1,4 @@
-# Install script for directory: /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/zephyr/modules/fatfs
+# Install script for directory: /home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/modules/fs/fatfs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

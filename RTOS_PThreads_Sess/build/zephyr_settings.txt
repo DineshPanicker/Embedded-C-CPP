@@ -6,11 +6,5 @@
 # and/or the west manifest file.
 #
 # See the Modules guide for more information.
-"DTS_ROOT":"/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/modules/hal/adi"
-"DTS_ROOT":"/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/modules/hal/atmel"
-"DTS_ROOT":"/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/modules/hal/espressif"
-"DTS_ROOT":"/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/modules/hal/gigadevice"
-"DTS_ROOT":"/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/modules/hal/microchip"
-"DTS_ROOT":"/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/modules/hal/nuvoton"
 "DTS_ROOT":"/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/modules/hal/nxp"
 "DTS_ROOT":"/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/modules/hal/stm32"

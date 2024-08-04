@@ -1,2 +1,0 @@
-ccache /usr/bin/ar qc libdrivers__entropy.a CMakeFiles/drivers__entropy.dir/fake_entropy_native_posix.c.obj CMakeFiles/drivers__entropy.dir/fake_entropy_native_bottom.c.obj
-ccache /usr/bin/ranlib libdrivers__entropy.a

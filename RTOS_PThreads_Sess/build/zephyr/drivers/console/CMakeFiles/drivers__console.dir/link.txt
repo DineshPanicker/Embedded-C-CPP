@@ -1,2 +1,0 @@
-ccache /usr/bin/ar qc libdrivers__console.a CMakeFiles/drivers__console.dir/posix_arch_console.c.obj
-ccache /usr/bin/ranlib libdrivers__console.a

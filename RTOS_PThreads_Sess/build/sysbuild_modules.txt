@@ -1,1 +1,0 @@
-"mcuboot":"/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/bootloader/mcuboot":"/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/bootloader/mcuboot/boot/zephyr/sysbuild"

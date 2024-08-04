@@ -39,8 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/boards/native/native_posix/cmake_install.cmake")
-  include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/boards/shields/cmake_install.cmake")
+  include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/boards/posix/native_posix/cmake_install.cmake")
 
 endif()
 

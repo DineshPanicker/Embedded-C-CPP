@@ -40,8 +40,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/drivers/ethernet/phy/cmake_install.cmake")
-  include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/drivers/ethernet/eth_nxp_enet_qos/cmake_install.cmake")
-  include("/home/dinesh/Embedded-C-CPP/RTOS_PThreads_Sess/build/zephyr/drivers/ethernet/nxp_enet/cmake_install.cmake")
 
 endif()
 
