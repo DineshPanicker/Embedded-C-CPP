@@ -1,0 +1,5 @@
+Translation unit:
+1 -> /home/dinesh/Embedded-C-CPP/network-programming/webserver.c
+cov-emit invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 3

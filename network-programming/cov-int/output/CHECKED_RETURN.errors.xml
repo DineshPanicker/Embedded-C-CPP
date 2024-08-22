@@ -1,0 +1,44 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C</lang>
+<checker>CHECKED_RETURN</checker>
+<type>unchecked_return_value</type>
+<subtype>library_function</subtype>
+<file>/home/dinesh/Embedded-C-CPP/network-programming/webserver.c</file>
+<function>main</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<main>true</main>
+<tag>check_return</tag>
+<description>{CovLStrv2{{t{Calling {0} without checking return value. This library function may fail and return an error code.}{{code{bind(s, &amp;addr, 16U)}}}}}}</description>
+<line>15</line>
+</event>
+<extra>bind</extra>
+<subcategory>library_function</subcategory>
+<eventSetCaptions>
+<eventSetCaption>Unchecked call to function</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C</lang>
+<checker>CHECKED_RETURN</checker>
+<type>unchecked_return_value</type>
+<subtype>library_function</subtype>
+<file>/home/dinesh/Embedded-C-CPP/network-programming/webserver.c</file>
+<function>main</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<main>true</main>
+<tag>check_return</tag>
+<description>{CovLStrv2{{t{Calling {0} without checking return value. This library function may fail and return an error code.}{{code{recv(client_fd, buffer, 256UL, 0)}}}}}}</description>
+<line>22</line>
+</event>
+<extra>recv</extra>
+<subcategory>library_function</subcategory>
+<eventSetCaptions>
+<eventSetCaption>Unchecked call to function</eventSetCaption>
+</eventSetCaptions>
+</error>

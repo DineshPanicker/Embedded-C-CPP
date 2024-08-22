@@ -1,0 +1,9 @@
+Checker Name,Subcategory,Main Event Line Number,Event Description
+CHECKED_RETURN,library_function,15,"Calling ""bind(s, &addr, 16U)"" without checking return value. This library function may fail and return an error code."
+CHECKED_RETURN,library_function,22,"Calling ""recv(client_fd, buffer, 256UL, 0)"" without checking return value. This library function may fail and return an error code."
+NEGATIVE_RETURNS,critical_argument,30,"Function ""open(f, 0)"" returns a negative number."
+NEGATIVE_RETURNS,critical_argument,30,"Assigning: ""opened_fd"" = ""open(f, 0)""."
+NEGATIVE_RETURNS,critical_argument,30,"""opened_fd"" is passed to a parameter that cannot be negative."
+NEGATIVE_RETURNS,critical_argument,22,"Function ""accept(s, NULL, NULL)"" returns a negative number."
+NEGATIVE_RETURNS,critical_argument,22,"Assigning: ""client_fd"" = ""accept(s, NULL, NULL)""."
+NEGATIVE_RETURNS,critical_argument,22,"""client_fd"" is passed to a parameter that cannot be negative."

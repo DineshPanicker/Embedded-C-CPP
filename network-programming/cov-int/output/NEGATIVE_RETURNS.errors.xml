@@ -1,0 +1,58 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C</lang>
+<checker>NEGATIVE_RETURNS</checker>
+<type>negative_returns</type>
+<subtype>critical_argument</subtype>
+<file>/home/dinesh/Embedded-C-CPP/network-programming/webserver.c</file>
+<function>main</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>negative_return_fn</tag>
+<description>{CovLStrv2{{t{Function {0} returns a negative number.}{{code{accept(s, NULL, NULL)}}}}}}</description>
+<line>19</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{client_fd}}}{}{{code{accept(s, NULL, NULL)}}}}}}</description>
+<line>19</line>
+</event>
+<event>
+<main>true</main>
+<tag>negative_returns</tag>
+<description>{CovLStrv2{{t{{0} is passed to a parameter that cannot be negative.}{{code{client_fd}}}}}}</description>
+<line>22</line>
+</event>
+<extra>accept</extra>
+<subcategory>critical_argument</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C</lang>
+<checker>NEGATIVE_RETURNS</checker>
+<type>negative_returns</type>
+<subtype>critical_argument</subtype>
+<file>/home/dinesh/Embedded-C-CPP/network-programming/webserver.c</file>
+<function>main</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>negative_return_fn</tag>
+<description>{CovLStrv2{{t{Function {0} returns a negative number.}{{code{open(f, 0)}}}}}}</description>
+<line>28</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{opened_fd}}}{}{{code{open(f, 0)}}}}}}</description>
+<line>28</line>
+</event>
+<event>
+<main>true</main>
+<tag>negative_returns</tag>
+<description>{CovLStrv2{{t{{0} is passed to a parameter that cannot be negative.}{{code{opened_fd}}}}}}</description>
+<line>30</line>
+</event>
+<extra>open</extra>
+<subcategory>critical_argument</subcategory>
+</error>

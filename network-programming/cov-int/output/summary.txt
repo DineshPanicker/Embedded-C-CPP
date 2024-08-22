@@ -1,0 +1,12 @@
+cov-analyze --dir cov-int 
+Analysis summary report:
+------------------------
+Files analyzed                 : 1 Total
+    C                          : 1
+Total LoC input to cov-analyze : 5582
+Functions analyzed             : 1
+Paths analyzed                 : 53
+Time taken by analysis         : 00:00:20
+Defect occurrences found       : 4 Total
+                                 2 CHECKED_RETURN
+                                 2 NEGATIVE_RETURNS

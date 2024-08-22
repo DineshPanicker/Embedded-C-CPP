@@ -1,0 +1,290 @@
+{
+  "type" : "Coverity issues",
+  "formatVersion" : 7,
+  "suppressedIssueCount" : 0,
+  "issues" : [
+    {
+      "mergeKey" : "000eb08dd6ad41945e1b73ac18e4a5d5",
+      "occurrenceCountForMK" : 1,
+      "occurrenceNumberInMK" : 1,
+      "referenceOccurrenceCountForMK" : null,
+      "checkerName" : "CHECKED_RETURN",
+      "subcategory" : "library_function",
+      "type" : "unchecked_return_value",
+      "subtype" : "library_function",
+      "code-language" : "c/c++",
+      "extra" : "bind",
+      "domain" : "STATIC_C",
+      "language" : "C",
+      "mainEventFilePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+      "strippedMainEventFilePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+      "mainEventLineNumber" : 15,
+      "properties" : {},
+      "functionDisplayName" : "main",
+      "functionMangledName" : "main",
+      "localStatus" : null,
+      "ordered" : true,
+      "events" : [
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Calling {0} without checking return value. This library function may fail and return an error code.}{{code{bind(s, &addr, 16U)}}}}}}",
+          "eventDescription" : "Calling \"bind(s, &addr, 16U)\" without checking return value. This library function may fail and return an error code.",
+          "eventNumber" : 1,
+          "eventTreePosition" : "1",
+          "eventSet" : 0,
+          "eventTag" : "check_return",
+          "filePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+          "strippedFilePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+          "lineNumber" : 15,
+          "main" : true,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        }
+      ],
+      "stateOnServer" : null,
+      "checkerProperties" : {
+        "category" : "Error handling issues",
+        "categoryDescription" : "Error handling issues",
+        "cweCategory" : "252",
+        "issueKinds" : [
+          "QUALITY"
+        ],
+        "eventSetCaptions" : [
+          "Unchecked call to function"
+        ],
+        "impact" : "Medium",
+        "impactDescription" : "Medium",
+        "subcategoryLocalEffect" : "The function returns a value that indicates an error condition.  If this is not checked, the error condition may not be handled correctly.",
+        "subcategoryShortDescription" : "Unchecked return value from library",
+        "subcategoryLongDescription" : "Value returned from a library function is not checked for errors before being used.  This value may indicate an error condition."
+      }
+    },
+    {
+      "mergeKey" : "42f066f1754bded15b20b5bd9582d4f0",
+      "occurrenceCountForMK" : 1,
+      "occurrenceNumberInMK" : 1,
+      "referenceOccurrenceCountForMK" : null,
+      "checkerName" : "CHECKED_RETURN",
+      "subcategory" : "library_function",
+      "type" : "unchecked_return_value",
+      "subtype" : "library_function",
+      "code-language" : "c/c++",
+      "extra" : "recv",
+      "domain" : "STATIC_C",
+      "language" : "C",
+      "mainEventFilePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+      "strippedMainEventFilePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+      "mainEventLineNumber" : 22,
+      "properties" : {},
+      "functionDisplayName" : "main",
+      "functionMangledName" : "main",
+      "localStatus" : null,
+      "ordered" : true,
+      "events" : [
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Calling {0} without checking return value. This library function may fail and return an error code.}{{code{recv(client_fd, buffer, 256UL, 0)}}}}}}",
+          "eventDescription" : "Calling \"recv(client_fd, buffer, 256UL, 0)\" without checking return value. This library function may fail and return an error code.",
+          "eventNumber" : 1,
+          "eventTreePosition" : "1",
+          "eventSet" : 0,
+          "eventTag" : "check_return",
+          "filePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+          "strippedFilePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+          "lineNumber" : 22,
+          "main" : true,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        }
+      ],
+      "stateOnServer" : null,
+      "checkerProperties" : {
+        "category" : "Error handling issues",
+        "categoryDescription" : "Error handling issues",
+        "cweCategory" : "252",
+        "issueKinds" : [
+          "QUALITY"
+        ],
+        "eventSetCaptions" : [
+          "Unchecked call to function"
+        ],
+        "impact" : "Medium",
+        "impactDescription" : "Medium",
+        "subcategoryLocalEffect" : "The function returns a value that indicates an error condition.  If this is not checked, the error condition may not be handled correctly.",
+        "subcategoryShortDescription" : "Unchecked return value from library",
+        "subcategoryLongDescription" : "Value returned from a library function is not checked for errors before being used.  This value may indicate an error condition."
+      }
+    },
+    {
+      "mergeKey" : "b28648fdfea93d856a8645576bc51c45",
+      "occurrenceCountForMK" : 1,
+      "occurrenceNumberInMK" : 1,
+      "referenceOccurrenceCountForMK" : null,
+      "checkerName" : "NEGATIVE_RETURNS",
+      "subcategory" : "critical_argument",
+      "type" : "negative_returns",
+      "subtype" : "critical_argument",
+      "code-language" : "c/c++",
+      "extra" : "open",
+      "domain" : "STATIC_C",
+      "language" : "C",
+      "mainEventFilePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+      "strippedMainEventFilePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+      "mainEventLineNumber" : 30,
+      "properties" : {},
+      "functionDisplayName" : "main",
+      "functionMangledName" : "main",
+      "localStatus" : null,
+      "ordered" : true,
+      "events" : [
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Function {0} returns a negative number.}{{code{open(f, 0)}}}}}}",
+          "eventDescription" : "Function \"open(f, 0)\" returns a negative number.",
+          "eventNumber" : 1,
+          "eventTreePosition" : "1",
+          "eventSet" : 0,
+          "eventTag" : "negative_return_fn",
+          "filePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+          "strippedFilePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+          "lineNumber" : 28,
+          "main" : false,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        },
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{opened_fd}}}{}{{code{open(f, 0)}}}}}}",
+          "eventDescription" : "Assigning: \"opened_fd\" = \"open(f, 0)\".",
+          "eventNumber" : 2,
+          "eventTreePosition" : "2",
+          "eventSet" : 0,
+          "eventTag" : "assign",
+          "filePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+          "strippedFilePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+          "lineNumber" : 28,
+          "main" : false,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        },
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{{0} is passed to a parameter that cannot be negative.}{{code{opened_fd}}}}}}",
+          "eventDescription" : "\"opened_fd\" is passed to a parameter that cannot be negative.",
+          "eventNumber" : 3,
+          "eventTreePosition" : "3",
+          "eventSet" : 0,
+          "eventTag" : "negative_returns",
+          "filePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+          "strippedFilePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+          "lineNumber" : 30,
+          "main" : true,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        }
+      ],
+      "stateOnServer" : null,
+      "checkerProperties" : {
+        "category" : "Error handling issues",
+        "categoryDescription" : "Error handling issues",
+        "cweCategory" : "687",
+        "issueKinds" : [
+          "QUALITY"
+        ],
+        "eventSetCaptions" : [],
+        "impact" : "Medium",
+        "impactDescription" : "Medium",
+        "subcategoryLocalEffect" : "The negative argument will be interpreted as a very large unsigned value.",
+        "subcategoryShortDescription" : "Argument cannot be negative",
+        "subcategoryLongDescription" : "Negative value used as argument to a function expecting a positive value (for example, size of buffer or allocation)"
+      }
+    },
+    {
+      "mergeKey" : "4b5946d00e84c2ea87467e158370aa4c",
+      "occurrenceCountForMK" : 1,
+      "occurrenceNumberInMK" : 1,
+      "referenceOccurrenceCountForMK" : null,
+      "checkerName" : "NEGATIVE_RETURNS",
+      "subcategory" : "critical_argument",
+      "type" : "negative_returns",
+      "subtype" : "critical_argument",
+      "code-language" : "c/c++",
+      "extra" : "accept",
+      "domain" : "STATIC_C",
+      "language" : "C",
+      "mainEventFilePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+      "strippedMainEventFilePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+      "mainEventLineNumber" : 22,
+      "properties" : {},
+      "functionDisplayName" : "main",
+      "functionMangledName" : "main",
+      "localStatus" : null,
+      "ordered" : true,
+      "events" : [
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Function {0} returns a negative number.}{{code{accept(s, NULL, NULL)}}}}}}",
+          "eventDescription" : "Function \"accept(s, NULL, NULL)\" returns a negative number.",
+          "eventNumber" : 1,
+          "eventTreePosition" : "1",
+          "eventSet" : 0,
+          "eventTag" : "negative_return_fn",
+          "filePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+          "strippedFilePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+          "lineNumber" : 19,
+          "main" : false,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        },
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{client_fd}}}{}{{code{accept(s, NULL, NULL)}}}}}}",
+          "eventDescription" : "Assigning: \"client_fd\" = \"accept(s, NULL, NULL)\".",
+          "eventNumber" : 2,
+          "eventTreePosition" : "2",
+          "eventSet" : 0,
+          "eventTag" : "assign",
+          "filePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+          "strippedFilePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+          "lineNumber" : 19,
+          "main" : false,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        },
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{{0} is passed to a parameter that cannot be negative.}{{code{client_fd}}}}}}",
+          "eventDescription" : "\"client_fd\" is passed to a parameter that cannot be negative.",
+          "eventNumber" : 3,
+          "eventTreePosition" : "3",
+          "eventSet" : 0,
+          "eventTag" : "negative_returns",
+          "filePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+          "strippedFilePathname" : "/home/dinesh/Embedded-C-CPP/network-programming/webserver.c",
+          "lineNumber" : 22,
+          "main" : true,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        }
+      ],
+      "stateOnServer" : null,
+      "checkerProperties" : {
+        "category" : "Error handling issues",
+        "categoryDescription" : "Error handling issues",
+        "cweCategory" : "687",
+        "issueKinds" : [
+          "QUALITY"
+        ],
+        "eventSetCaptions" : [],
+        "impact" : "Medium",
+        "impactDescription" : "Medium",
+        "subcategoryLocalEffect" : "The negative argument will be interpreted as a very large unsigned value.",
+        "subcategoryShortDescription" : "Argument cannot be negative",
+        "subcategoryLongDescription" : "Negative value used as argument to a function expecting a positive value (for example, size of buffer or allocation)"
+      }
+    }
+  ],
+  "desktopAnalysisSettings" : null,
+  "error" : null,
+  "warnings" : []
+}
