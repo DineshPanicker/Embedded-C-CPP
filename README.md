@@ -55,4 +55,4 @@ This repository evolves as I continue to learn and face new challenges. Expect r
 Got an interesting problem, tip, or feedback? Reach out or open a pull request—let’s collaborate and make programming fun and impactful!  
 
 Happy coding!  
-~ *[Dinesh Panicker]* 😊  
+~ *Dinesh Panicker* 😊  
