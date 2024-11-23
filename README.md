@@ -1,6 +1,6 @@
 # Embedded-C-CPP 🚀  
 
-Welcome to my **Embedded C/C++** repository! 🎯 This is a collection of my personal learnings, challenges, and interview questions related to C and C++ programming. Whether it’s about brushing up on pointers, mastering memory management, or exploring advanced OOP concepts, this repo has got it covered! 💡  
+Welcome to my **Embedded C/C++** repository! 🎯 This is a collection of my personal learnings, challenges, and interview questions related to C and C++ programming. Whether it’s about brushing up on pointers, mastering memory management, exploring advanced OOP concepts, or diving into **Zephyr RTOS**, this repo has got it covered! 💡  
 
 ---
 
@@ -24,7 +24,13 @@ Welcome to my **Embedded C/C++** repository! 🎯 This is a collection of my per
 - Smart pointers and RAII for memory safety 🛡️  
 - Multithreading and synchronization ⏳  
 
-### **4️⃣ Interview Prep**
+### **4️⃣ Zephyr RTOS Integration**
+- Basics of Zephyr RTOS: Why and how to use it 🕹️  
+- Task scheduling and thread management 🚦  
+- Synchronization mechanisms: Semaphores, mutexes, and queues 🔒  
+- Real-time applications and multi-threaded embedded systems 🌐  
+
+### **5️⃣ Interview Prep**
 - Frequently asked C/C++ interview questions ❓  
 - Tips for tackling tricky coding problems 🧠  
 - Real-world examples and solutions 🔧  
@@ -32,7 +38,7 @@ Welcome to my **Embedded C/C++** repository! 🎯 This is a collection of my per
 ---
 
 ## 💡 Why This Repo?  
-- **Learn & Implement**: A hands-on approach to understanding C/C++ concepts.  
+- **Learn & Implement**: A hands-on approach to understanding C/C++ concepts and RTOS.  
 - **Interview Ready**: Get equipped with answers and examples for common questions.  
 - **Community Support**: Share, learn, and grow with others passionate about Embedded C/C++.  
 
@@ -42,12 +48,13 @@ Welcome to my **Embedded C/C++** repository! 🎯 This is a collection of my per
 - **Compilers**: GCC, Clang, and Keil  
 - **Debuggers**: GDB, Valgrind  
 - **Editors/IDEs**: VS Code, Eclipse, CLion  
+- **RTOS**: Zephyr  
 - **Languages**: C, C++  
 
 ---
 
 ## 🌟 Progress Highlights  
-This repository evolves as I continue to learn and face new challenges. Expect regular updates with fresh concepts, practical examples, and detailed interview solutions!  
+This repository evolves as I continue to learn and face new challenges. Expect regular updates with fresh concepts, practical examples, detailed interview solutions, and **Zephyr RTOS** implementations!  
 
 ---
 
